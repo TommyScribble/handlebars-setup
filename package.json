@@ -1,0 +1,20 @@
+{
+  "name": "handlebars-setup",
+  "version": "0.0.1",
+  "description": "Handlebars base setup",
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "gulp --dev",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-controlled-merge-json": "^0.2.1",
+    "gulp-data": "^1.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7"
+  }
+}
